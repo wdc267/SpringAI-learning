@@ -1,0 +1,39 @@
+# Build
+target/
+build/
+*.class
+*.jar
+*.war
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Environment & secrets
+.env
+.env.*
+*.local
+
+# Generated media
+spring-ai-other/src/main/resources/tts/
+*.mp3
+
+# Spring Initializr generated help
+HELP.md
+
+# OS
+.DS_Store
+Thumbs.db
